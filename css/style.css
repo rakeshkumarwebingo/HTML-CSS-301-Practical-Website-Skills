@@ -2,7 +2,7 @@
 body {
 	font-size: 16px;
 	transition: all 0.25s cubic-bezier(0.54, 0.12, 0.2, 1) 0s;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat','poppins', sans-serif;
 }
 p {
 	line-height: 22px;
@@ -14,7 +14,7 @@ a {
 }
 a:hover {
 	color: darkblue;
-	text-decoration: none;
+	text-decoration: underline;
 }
 a:active {
 
@@ -228,6 +228,7 @@ footer li a {
 }
 
 footer li a:hover {
+	color:red;
 }
 
 .copyright {
